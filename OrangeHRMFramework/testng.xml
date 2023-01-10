@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Login Test">
+		<classes>
+			<class name="orangeHRM.testcases.TestCases">
+				<methods>
+					<include name="loginTest">
+						<parameter name="tc" value="LoginTest" />
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+	<test thread-count="5" name="DropDown Test">
+		<classes>
+			<class name="orangeHRM.testcases.TestCases">
+				<methods>
+					<include name="dropDown_TC_PIM_02">
+						<parameter name="tc" value="DropDownTest_TC_PIM_02" />
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="UserCreationTest">
+		<classes>
+			<class name="orangeHRM.testcases.TestCases">
+				<methods>
+					<include name="NewUserCreation_TC_PIM_03">
+						<parameter name="tc" value="NewUserCreation_TC_PIM_03" />
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Emp Details Page Tabs Test">
+		<classes>
+			<class name="orangeHRM.testcases.TestCases">
+				<methods>
+					<include name="empDeatilsTab_TC_PIM_04">
+						<parameter name="tc" value="Emp_PersonalDetails_Page_TabsValidation_TC_PIM_04" />
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Emp Personal Details Updation Test">
+		<classes>
+			<class name="orangeHRM.testcases.TestCases">
+				<methods>
+					<include name="EmpDetailsUpdation_TC_PIM_05">
+						<parameter name="tc" value="Emp_PersonalDetails_Updation_TC_PIM_05" />
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Emp Contact Details Updation Test">
+		<classes>
+			<class name="orangeHRM.testcases.TestCases">
+				<methods>
+					<include name="EmpContactDetails_TC_PIM_06">
+						<parameter name="tc" value="Emp_ContactDetails_Updation_TC_PIM_06" />
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Emp Emergency Contact Details Updation Test">
+		<classes>
+			<class name="orangeHRM.testcases.TestCases">
+				<methods>
+					<include name="EmergencyConcactUpda_TC_PIM_07">
+						<parameter name="tc" value="Emp_EmergencyContacts_Updation_TC_PIM_07" />
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Emp Dependents Details Updation Test">
+		<classes>
+			<class name="orangeHRM.testcases.TestCases">
+				<methods>
+					<include name="DependentsUpdation_TC_PIM_08">
+						<parameter name="tc" value="Emp_Dependents_Updation_TC_PIM_08" />
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Emp Job Details Updation Test">
+		<classes>
+			<class name="orangeHRM.testcases.TestCases">
+				<methods>
+					<include name="EmpJobDetailsUpdation_TC_PIM_09">
+						<parameter name="tc" value="Emp_Job_Updation_TC_PIM_09" />
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Emp Termination Test">
+		<classes>
+			<class name="orangeHRM.testcases.TestCases">
+				<methods>
+					<include name="EmpTermination_TC_PIM_10">
+						<parameter name="tc" value="Emp_Termination_TC_PIM_10" />
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Emp Activation Test">
+		<classes>
+			<class name="orangeHRM.testcases.TestCases">
+				<methods>
+					<include name="empActivation_TC_PIM_11">
+						<parameter name="tc" value="Emp_Activation_TC_PIM_11" />
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Emp Salary updation Test">
+		<classes>
+			<class name="orangeHRM.testcases.TestCases">
+				<methods>
+					<include name="EmpSalaryUpdation_TC_PIM_12">
+						<parameter name="tc" value="Emp_Salary_Updation_TC_PIM_12" />
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Emp Tax Exemptions updation Test">
+		<classes>
+			<class name="orangeHRM.testcases.TestCases">
+				<methods>
+					<include name="Emp_TaxExemptions_TC_PIM_13">
+						<parameter name="tc" value="Emp_TaxExemption_Updation_TC_PIM_13" />
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Keyword search Test" parallel="true">
+		<classes>
+			<class name="orangeHRM.testcases.TestCases">
+				<methods>
+					<include name="TC_PIM_01">
+						<parameter name="tc" value="KeywordSearch_TC_PIM_01" />
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
